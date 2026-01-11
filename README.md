@@ -12,4 +12,5 @@ Forward Prices:
   The splitters use a combination of time decay and Gaussian weighting to eliminate outliers, while the shapers are straight averages of history.
 
 Volatilites:
-  
+
+  The team needs the volatilities at the delivery point for calculating the covariance costs. However, since ON-peak options are liquid only at the trading hub, the team uses an actuarial approach to convert the market-implied ON volatilities to delivery point volatilities using price volatility multipliers (PVMs).
