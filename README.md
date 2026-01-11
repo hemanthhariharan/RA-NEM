@@ -1,7 +1,7 @@
 # RA-NEM
 Risk Analytics - NextEra Energy Marketing
 
-The Risk Analytics desk on the Full Requirements team at NextEra Energy Marketing values and hedges short positions in variable-volume swaps. Since there is optionality embedded into an exotic swap of this nature, the team works with the futures desk and the options desk for the forward prices and the vols, respectively.
+The Risk Analytics desk on the Full Requirements team at NextEra Energy Marketing values and hedges short positions in variable-volume swaps. Since there is optionality embedded into an exotic swap of this nature, the team works with the futures desk and the options desk for the forward prices and the volatilities, respectively.
 
 Forward Prices:
 
