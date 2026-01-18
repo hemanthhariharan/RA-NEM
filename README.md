@@ -3,16 +3,10 @@ Risk Analytics - NextEra Energy Marketing
 
 The Risk Analytics desk on the Full Requirements team at NextEra Energy Marketing values and hedges short positions in variable-volume swaps. Since there is optionality embedded into an exotic swap of this nature, the team works with the futures and the options desk for the forward prices and the volatilities, respectively.
 
-Forward Prices:
+The folder 'Variable_volume_valuation' contains the code used for pricing the swap, with more details on the use of various statistical methods.
 
-  Since only ON (5x16) and OFF (non-5x16) electricity futures are liquid, the team uses an actuarial approach to convert monthly futures prices to hourly prices.
+'Geometric_brownian_motion.ipynb' contains implementations of correlated Geometric Brownian motion, empirical calculations of volatility and correlations, functions to value exotic options (Asian and lookback), and the development of a systematic methodology to price variable-volume swaps by expressing volume as a function of price.
 
-  Splitters are used to convert the OFF futures to 2x16 and 7x8 prices, and shapers to convert the split prices to a more granular time-block level.
+'Options_valuation.ipynb' contains implementations of functions for modeling European and American options (binomial tree), variable-volume swaps Greeks, Geometric Brownian Motion, VaR etc.
 
-  The splitters use a combination of time decay and Gaussian weighting to eliminate outliers, while the shapers are straight averages of history.
 
-Volatilites:
-
-  The team needs the volatilities at the delivery point for calculating the covariance costs. However, since ON-peak options are liquid only at the trading hub, the team uses an actuarial approach to convert the market-implied ON volatilities to delivery point volatilities using price volatility multipliers (PVMs).
-
-In addition, the team also receives credits based on the results of FTR (Financial Transmission Rights) auctions, which are valued using the ARR (Auction Revenue Right) model. The FTRs are essentially an exotic derivative of congestion, and take the form of swaps and options.
