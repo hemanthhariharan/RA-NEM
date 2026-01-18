@@ -7,6 +7,6 @@ The folder 'Variable_volume_swap_valuation' contains the code used for pricing t
 
 'Geometric_Brownian_Motion.ipynb' contains implementations of correlated Geometric Brownian motion, empirical calculations of volatility and correlations, functions to value exotic options (Asian and lookback), and the development of a systematic methodology to price variable-volume swaps by expressing volume as a function of price.
 
-'Options_valuation.ipynb' contains implementations of functions for modeling European and American options (binomial tree), variable-volume swaps Greeks, Geometric Brownian Motion, VaR etc.
+'Options_valuation.ipynb' contains implementations of functions for modeling European and American options (binomial tree), variable-volume swap Greeks, Geometric Brownian Motion, VaR etc.
 
 
