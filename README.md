@@ -14,3 +14,5 @@ Forward Prices:
 Volatilites:
 
   The team needs the volatilities at the delivery point for calculating the covariance costs. However, since ON-peak options are liquid only at the trading hub, the team uses an actuarial approach to convert the market-implied ON volatilities to delivery point volatilities using price volatility multipliers (PVMs).
+
+In addition, the team also receives credits based on the results of FTR (Financial Transmission Rights) auctions, which are valued using the ARR (Auction Revenue Right) model. The FTRs are essentially an exotic derivative of congestion, and take the form of swaps and options.
