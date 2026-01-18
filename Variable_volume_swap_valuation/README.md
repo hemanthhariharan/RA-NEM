@@ -1,5 +1,3 @@
-The Risk Analytics desk on the Full Requirements team at NextEra Energy Marketing values and hedges short positions in variable-volume swaps. Since there is optionality embedded into an exotic swap of this nature, the team works with the futures and the options desk for the forward prices and the volatilities, respectively.
-
 Forward Prices:
 
   Since only ON (5x16) and OFF (non-5x16) electricity futures are liquid, the team uses an actuarial approach to convert monthly futures prices to hourly prices.
