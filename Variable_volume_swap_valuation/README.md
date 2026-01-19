@@ -1,4 +1,4 @@
-The file 'BGS.ipynb' is illustrative of the typical data wrangling process followed for the valuation of deals on the FR desk.
+The file 'BGS.ipynb' is illustrative of the typical data wrangling and analysis/visualization process followed for the valuation of deals on the FR desk.
 
 The files 'emtdb_api.py' and 'util.py' are standard interfacing and helper tools developed by the desk to allow analysts to interact with the Energy Marketing and Trading Database (EMTDB).
 
